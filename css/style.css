@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.subscribe {
+    background-color: #00acee;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main>article>a {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 265px;
+    height: 353px;
+
+    animation-name: backInLeft;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+
+span {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+input {
+    font-family: 'Comfortaa', cursive;
+    color: #00acee;
+    font-weight: 600;
+}
+
+input:focus {
+    background-color: #e3f1fc;
+}
+
+.subscribeP {
+    color: #e3f1fc;
+}
+
+/*  шапка  */
+
+header {
+    display: flex;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 300px;
+    max-height: 62px;
+    transition: transform 1s;
+}
+
+.logo:hover {
+
+
+    animation-name: jello;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+
+nav {
+    margin-right: 10%;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu {
+    text-decoration: none;
+    color: #00acee;
+}
+
+.menu:visited {
+    color: #777777;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.line {
+    width: 55%;
+    height: 2px;
+    background-color: #00acee;
+}
+
+article {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vraper_img {
+    overflow: hidden;
+
+}
+
+.card {
+    width: 20%;
+    overflow: hidden;
+
+
+    animation-name: backInUp;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+
+.img {
+    width: 100%;
+    transition: transform 2s;
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
+
+.reclama {
+    width: 600px;
+}
+
+.text {
+    background-color: #00acee;
+    color: white;
+    max-width: 100%;
+    padding: 15px;
+}
+
+.text:first-letter {
+    font-size: 24px;
+    color: #ff5311;
+}
+
+footer {
+    background-color: rgb(233, 233, 233);
+    color: #777777;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerA1 {
+    color: #ff5311;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.footerA {
+    color: #00acee;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.footerP {
+    margin-left: 30px;
+}
