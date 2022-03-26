@@ -93,6 +93,7 @@ nav {
     padding: 9px 72px;
     font-size: 20px;
     border: 0px;
+    transition-property: transform;
     transition-duration: 300ms;
     transition-delay: 1s;
 }
